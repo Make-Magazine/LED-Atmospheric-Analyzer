@@ -7,8 +7,14 @@
   
   This code is based on Patrick's LED Photometer project from the book "Atmospheric Monitoring with Arduino".
   You can find his code and a schematic on page 54. I modified it for use with the Sparkfun LCD screen, and left out data storage.
-  The LCD must be powered from the 5V pin on the Arduino, with RX from the LCD hooked up to Digital Pin 1 (TX) on the Arduino.
-  These pins can be changed on Line 27.
+  Here the RX from the LCD goes to Digital Pin 1 (TX) on the Arduino.
+  
+  For information on how to store data to an SD Card or the Arduino's EEPROM, refer to the book.
+
+  To adjust the contrast on your Sparkfun LCD, turn it over and use a small screwdriver to adjust the small, metal potentiometer.
+  I'd recommend unplugging the power rail of the circuit while the code is uploading, in order to avoid any transmitting issues.
+
+  For more information on the Sparkfun LCD, go here: http://playground.arduino.cc/Learning/SparkFunSerLCD
 
 */
 
